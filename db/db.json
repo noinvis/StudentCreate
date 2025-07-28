@@ -1,0 +1,76 @@
+{
+  "students": [
+    {
+      "fname": "askdas",
+      "lname": "Karimov",
+      "phone": "+998(91)234-56-78",
+      "address": "Samarkand",
+      "gender": "male",
+      "birthdate": "0312-03-12",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "fname": "Malika",
+      "lname": "Islomova",
+      "phone": "+998(93)345-67-89",
+      "address": "Bukhara",
+      "gender": "Woman",
+      "birthdate": "08-11-2007"
+    },
+    {
+      "id": "4",
+      "fname": "Sardor",
+      "lname": "Tursunov",
+      "phone": "+998(94)456-78-90",
+      "address": "Namangan",
+      "gender": "Man",
+      "birthdate": "22-01-2004"
+    },
+    {
+      "id": "5",
+      "fname": "Nodira",
+      "lname": "Rasulova",
+      "phone": "+998(95)567-89-01",
+      "address": "Andijan",
+      "gender": "Woman",
+      "birthdate": "19-09-2006"
+    },
+    {
+      "id": "6",
+      "fname": "Bekzod",
+      "lname": "Sodiqov",
+      "phone": "+998(97)678-90-12",
+      "address": "Fergana",
+      "gender": "Man",
+      "birthdate": "30-06-2005"
+    },
+    {
+      "id": "7",
+      "fname": "Dilnoza",
+      "lname": "Yusupova",
+      "phone": "+998(99)789-01-23",
+      "address": "Khiva",
+      "gender": "Woman",
+      "birthdate": "03-03-2007"
+    },
+    {
+      "id": "8",
+      "fname": "Javlon",
+      "lname": "Nurmatov",
+      "phone": "+998(88)890-12-34",
+      "address": "Kokand",
+      "gender": "Man",
+      "birthdate": "10-10-2004"
+    },
+    {
+      "id": "e495",
+      "fname": "Lazizbek",
+      "lname": "Soxobidinov",
+      "phone": "123",
+      "address": "123",
+      "gender": "male",
+      "birthdate": "3333-02-12"
+    }
+  ]
+}

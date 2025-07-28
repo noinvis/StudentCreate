@@ -10,13 +10,13 @@
       "birthdate": "12.25.06"
     },
     {
-      "id": "2",
       "fname": "Alice",
       "lname": "Smith",
       "phone": "+998(91)456-78-90",
       "address": "Samarkand",
-      "gender": "Woman",
-      "birthdate": "05.14.02"
+      "gender": "male",
+      "birthdate": "0123-03-12",
+      "id": "2"
     },
     {
       "id": "3",

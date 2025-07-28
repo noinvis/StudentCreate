@@ -23,7 +23,7 @@ const CreateStudent = () => {
       <p className="text-center text-[40px]">Create</p>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-[10px] bg-[dodgerblue] w-[650px] p-[30px] rounded-[5px] mx-auto my-[30px]"
+        className="flex flex-col gap-[10px] bg-[dodgerblue] w-[650px] max-[705px]:w-auto p-[30px] rounded-[5px] mx-auto my-[30px]"
       >
         <div className="flex flex-col gap-[5px]">
           <label className="font-medium text-[#fff]">First Name</label>

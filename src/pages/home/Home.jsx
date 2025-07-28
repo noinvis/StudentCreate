@@ -6,7 +6,7 @@ import { api } from "@/api";
 
 const Home = () => {
   const [studentReload, setReload] = useState(false);
-  const { data} = useFetch("/students", {}, studentReload);
+  const { data } = useFetch("/students", {}, studentReload);
   const navigate = useNavigate();
   const handleDelete = (id) => {
     api
@@ -14,10 +14,9 @@ const Home = () => {
       .then(() => setReload((p) => !p))
       .catch((err) => console.error(err));
   };
-  if (!data)
+  if (!data || data.length === 0)
     return (
-      <div className="h-[100vh]">
-        <div className="loader"></div>
+      <div className="h-[70vh]">
       </div>
     );
   return (
@@ -27,9 +26,9 @@ const Home = () => {
       {data.length === 0 ? (
         <p className="text-center text-[20px] text-red-500">Ma'lumot yo'q</p>
       ) : (
-        <div className="grid grid-cols-4 gap-[30px] py-[30px]">
+        <div className="grid grid-cols-4 gap-[30px] py-[30px] max-[1030px]:grid-cols-3 max-[800px]:grid-cols-2 max-[525px]:grid-cols-1">
           {data.map((student) => (
-            <div key={student.id} className="rounded-2xl shadow-xl">
+            <div key={student.id} className="rounded-2xl shadow-xl p-[5px]">
               <div>
                 <img
                   src={img}

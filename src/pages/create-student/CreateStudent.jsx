@@ -1,12 +1,9 @@
 import { api } from "@/api";
-import { useFetch } from "@/hooks/useFetch";
-import React, { memo, useState } from "react";
+import React, { memo } from "react";
 import { useNavigate } from "react-router-dom";
 
 const CreateStudent = () => {
   const navigate = useNavigate();
-  const [studentReload, setUserReload] = useState(false);
-  const { data, error, loading } = useFetch("/students", {}, studentReload);
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
@@ -14,9 +11,8 @@ const CreateStudent = () => {
     api
       .post("/students", data)
       .then((res) => {
-        setUserReload((p) => !p);
         e.target.reset();
-        navigate("/");
+        navigate("/")
       })
       .catch((err) => console.error(err));
   };

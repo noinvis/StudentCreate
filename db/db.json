@@ -1,3 +1,76 @@
 {
-  "students": []
+  "students": [
+    {
+      "id": "1",
+      "fname": "John",
+      "lname": "Doe",
+      "phone": "+998(90)123-45-67",
+      "address": "Tashkent",
+      "gender": "Woman",
+      "birthdate": "12.25.06"
+    },
+    {
+      "id": "2",
+      "fname": "Alice",
+      "lname": "Smith",
+      "phone": "+998(91)456-78-90",
+      "address": "Samarkand",
+      "gender": "Woman",
+      "birthdate": "05.14.02"
+    },
+    {
+      "id": "3",
+      "fname": "Bob",
+      "lname": "Johnson",
+      "phone": "+998(93)111-22-33",
+      "address": "Bukhara",
+      "gender": "Man",
+      "birthdate": "08.30.98"
+    },
+    {
+      "id": "4",
+      "fname": "Emma",
+      "lname": "Brown",
+      "phone": "+998(94)222-33-44",
+      "address": "Andijan",
+      "gender": "Woman",
+      "birthdate": "11.22.00"
+    },
+    {
+      "id": "5",
+      "fname": "David",
+      "lname": "Wilson",
+      "phone": "+998(95)333-44-55",
+      "address": "Namangan",
+      "gender": "Man",
+      "birthdate": "07.10.97"
+    },
+    {
+      "id": "6",
+      "fname": "Sophia",
+      "lname": "Lee",
+      "phone": "+998(97)444-55-66",
+      "address": "Fergana",
+      "gender": "Woman",
+      "birthdate": "01.18.01"
+    },
+    {
+      "id": "7",
+      "fname": "Michael",
+      "lname": "Clark",
+      "phone": "+998(98)555-66-77",
+      "address": "Jizzakh",
+      "gender": "Man",
+      "birthdate": "09.05.95"
+    },
+    {
+      "id": "8",
+      "fname": "Olivia",
+      "lname": "Martinez",
+      "phone": "+998(99)666-77-88",
+      "address": "Nukus",
+      "gender": "Woman",
+      "birthdate": "03.03.04"
+    }
+  ]
 }

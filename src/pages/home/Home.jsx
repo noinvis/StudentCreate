@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import { useFetch } from "@/hooks/useFetch";
 import img from "@/assets/img/user.png";
 import { useNavigate } from "react-router-dom";
@@ -67,4 +67,4 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
+export default memo(Home);
